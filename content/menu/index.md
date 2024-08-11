@@ -9,5 +9,6 @@ headless: true
 <br />
 
 - **论文笔记**
+- [SAGE]({{< relref "/posts/sage" >}})
 - [DeepAG]({{< relref "/posts/deepag" >}})
 <br />
