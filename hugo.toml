@@ -1,5 +1,5 @@
 baseURL = 'https://example.com/'
-title = 'Yang inCSU'
+title = 'Yang in CSU'
 theme = 'hugo-book'
 
 # Book configuration
@@ -15,18 +15,10 @@ enableGitInfo = true
   startLevel = 1
 
 
-[menu]
-# [[menu.before]]
-[[menu.after]]
-  name = "Github"
-  url = "https://github.com/alex-shpak/hugo-book"
-  weight = 10
-
-[[menu.after]]
-  name = "Hugo Themes"
-  url = "https://themes.gohugo.io/themes/hugo-book/"
-  weight = 20
-
+BookTheme = 'auto'
+BookLogo = 'logo.jpg'
+BookMenuBundle = '/menu'
+BookSection = 'docs'
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
