@@ -1,7 +1,7 @@
 ---
 menu:
   after:
-    name: Golang
+    name: blog
     weight: 5
-title: Golang
+title: Blog
 ---
