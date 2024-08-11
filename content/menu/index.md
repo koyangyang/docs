@@ -9,5 +9,5 @@ headless: true
 <br />
 
 - **论文笔记**
-- [Hello]({{< relref "/posts/Hello" >}})
+- [Hello]({{< relref "/docs/golang/base" >}})
 <br />
