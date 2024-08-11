@@ -3,11 +3,11 @@ headless: true
 ---
 
 - **编程记录**
-- [后端]({{< relref "/docs/index" >}})
+- [后端]({{< relref "/docs" >}})
   - [golang]({{< relref "/docs/golang" >}})
     - [golang基础语法]({{< relref "/docs/golang/golangbase" >}})
 <br />
 
 - **论文笔记**
-- [Hello]({{< relref "/docs/golang/golangbase" >}})
+- [DeepAG]({{< relref "/posts/deepag" >}})
 <br />
