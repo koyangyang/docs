@@ -15,12 +15,11 @@ actions:
     link: ./golang/
     type: primary
 
-  - text: Docker
-    link: ./docker/
+  - text: 算法
+    link: ./algorithm/
 
 copyright: false
 # footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-至今 Mr.Hope
 footer: Hello!
 ---
-![](https://disk.fcac7bef27a59be56570d8f54f561b08.r2.cloudflarestorage.com/52075831.jpg)
-![](https://disk.csuer.us.kg/52075831.jpg)
+![](https://disk.csuer.us.kg/%E8%9C%A1%E7%AC%94%E5%B0%8F%E6%96%B0.webp)

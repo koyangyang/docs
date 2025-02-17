@@ -19,6 +19,13 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "算法学习",
+      icon: "book",
+      prefix: "algorithm/",
+      link: "algorithm/",
+      children: "structure",
+    },
+    {
       text: "Golang",
       icon: "book",
       prefix: "golang/",

@@ -32,6 +32,19 @@ export default navbar([
     ],
   },
   {
+    text: "算法学习",
+    icon: "lightbulb",
+    prefix: "/algorithm/",
+    children: [
+      {
+        text: "LeetCode",
+        icon: "lightbulb",
+        // prefix: "docker/",
+        children: [{ text: "热门150题", link: "Leetcode-Hot150" }],
+      },
+    ],
+  },
+  {
     text: "Docker",
     icon: "lightbulb",
     prefix: "/docker/",
