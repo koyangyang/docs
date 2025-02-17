@@ -2,10 +2,10 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  // "/portfolio",
+  // "/INDEX",
   // "/demo/",
   {
-    text: "Go",
+    text: "编程语言",
     icon: "lightbulb",
     prefix: "/golang/",
     children: [
@@ -18,9 +18,9 @@ export default navbar([
     ],
   },
   {
-    text: "机器学习/深度学习",
+    text: "深度学习",
     icon: "lightbulb",
-    prefix: "/ml-dl/",
+    prefix: "/深度学习/",
     children: [
       {
         text: "深度学习",
@@ -45,15 +45,15 @@ export default navbar([
     ],
   },
   {
-    text: "Docker",
+    text: "开发工具",
     icon: "lightbulb",
-    prefix: "/docker/",
+    prefix: "/开发工具/",
     children: [
       {
         text: "Docker",
         icon: "lightbulb",
         // prefix: "docker/",
-        children: [{ text: "docker", icon: "ellipsis", link: "docker" }],
+        children: [{ text: "Docker", icon: "ellipsis", link: "docker" }],
       },
     ],
   },

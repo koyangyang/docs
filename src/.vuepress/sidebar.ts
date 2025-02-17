@@ -3,19 +3,19 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/": [
     // "",
-    // "portfolio",
+    // "INDEX",
     {
-      text: "Docker",
+      text: "开发工具",
       icon: "book",
-      prefix: "docker/",
-      link: "docker/",
+      prefix: "开发工具/",
+      link: "开发工具/",
       children: "structure",
     },
     {
-      text: "机器学习/深度学习",
+      text: "深度学习",
       icon: "book",
-      prefix: "ml-dl/",
-      link: "ml-dl/",
+      prefix: "深度学习/",
+      link: "深度学习/",
       children: "structure",
     },
     {

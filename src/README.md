@@ -12,7 +12,7 @@ tagline: 你可以在这里放置或是整个项目的描述。
 actions:
   - text: 开始阅读
     icon: lightbulb
-    link: ./golang/
+    link: ./home.md
     type: primary
 
   - text: 算法

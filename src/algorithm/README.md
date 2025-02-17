@@ -1,9 +1,9 @@
 ---
-title: 主要功能与配置演示
+title: 算法学习记录
 index: false
 icon: laptop-code
 category:
-  - 使用指南
+  - 算法
 ---
 
 <Catalog />
