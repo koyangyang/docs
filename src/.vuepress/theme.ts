@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://www.github.com/koyangyang",
   },
 
-  logo: "https://disk.csuer.us.kg/result.png",
+  logo: "/logo.png",
 
   repo: "koyangyang/koyangyang",
 
@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: '版权所有 © 2019-至今 <a href="https://www.github.com/koyangyang" target="_blank">Koyangyang</a>',
   displayFooter: true,
 
   // 加密配置

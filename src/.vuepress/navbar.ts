@@ -40,7 +40,7 @@ export default navbar([
         text: "LeetCode",
         icon: "lightbulb",
         // prefix: "docker/",
-        children: [{ text: "热门150题", link: "Leetcode-Hot150" }],
+        children: [{ text: "热门150题", link: "Leetcode面试热门150题" }],
       },
     ],
   },
