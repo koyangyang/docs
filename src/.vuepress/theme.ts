@@ -7,11 +7,11 @@ export default hopeTheme({
   hostname: "https://www.csuer.us.kg",
 
   author: {
-    name: "Mr.Hope",
+    name: "Koyang",
     url: "https://www.github.com/koyangyang",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://disk.csuer.us.kg/result.png",
 
   repo: "koyangyang/koyangyang",
 
@@ -122,10 +122,10 @@ export default hopeTheme({
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "koyangyang/docs",
+      repoId: "R_kgDON6saOg",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDON6saOs4CnCOO",
     },
 
     components: {
