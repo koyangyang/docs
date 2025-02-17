@@ -28,14 +28,14 @@ export default hopeTheme({
   displayFooter: true,
 
   // 加密配置
-  encrypt: {
-    config: {
-      "/docker/docker.html": {
-        hint: "请输入密码后访问",
-        password: "1234",
-      },
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/docker/docker.html": {
+  //       hint: "请输入密码后访问",
+  //       password: "1234",
+  //     },
+  //   },
+  // },
 
   // 多语言配置
   metaLocales: {
@@ -134,6 +134,11 @@ export default hopeTheme({
 
     icon: {
       prefix: "fa6-solid:",
+    },
+
+    search: {
+      isSearchable: (page) => page.path !== "/",
+      maxSuggestions: 10,
     },
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
