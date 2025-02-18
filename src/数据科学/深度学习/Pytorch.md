@@ -1,6 +1,10 @@
 ---
 title: Pytorch命令记录
-weight: 2
+category: Pytorch
+tag:
+  - Pytorch
+  - 深度学习
+  - 神经网络
 ---
 Pytorch命令记录
 <!-- more -->

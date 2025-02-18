@@ -1,6 +1,10 @@
 ---
 title: 图神经网络DGL
-weight: 2
+category: DGL
+tag:
+  - 图神经网络
+  - DGL
+  - 深度学习
 ---
 图神经网络学习记录
 <!-- more -->

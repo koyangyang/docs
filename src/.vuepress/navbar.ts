@@ -8,14 +8,15 @@ export default navbar([
     text: "计算机基础",
     icon: "lightbulb",
     prefix: "/计算机基础/",
-    children: [
-      {
-        text: "Go语言基础",
-        icon: "lightbulb",
-        // prefix: "docker/",
-        link: "golang/golangbase",
-      },
-    ],
+    link: "计算机基础/README.md",
+    // children: [
+    //   {
+    //     text: "Go语言基础",
+    //     icon: "lightbulb",
+    //     // prefix: "docker/",
+    //     link: "golang/golangbase",
+    //   },
+    // ],
   },
   {
     text: "数据科学",

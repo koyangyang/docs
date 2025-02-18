@@ -1,6 +1,9 @@
 ---
 title: Linux命令
-weight: 2
+category: Linux
+tag:
+  - Linux
+  - 命令备份
 ---
 Linux命令记录
 <!-- more -->

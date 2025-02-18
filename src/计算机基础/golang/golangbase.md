@@ -1,6 +1,11 @@
 ---
 title: Golang语言记录
-weight: 2
+category: Go
+tag:
+  - go
+  - 编程语言
+  - 后端
+---
 ---
 ## Go语言基础
 
