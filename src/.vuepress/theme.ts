@@ -1,7 +1,8 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+// import sidebar from "./sidebar.js";
+import sidebar from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://www.csuer.us.kg",

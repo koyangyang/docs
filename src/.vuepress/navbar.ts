@@ -5,41 +5,41 @@ export default navbar([
   // "/INDEX",
   // "/demo/",
   {
-    text: "编程语言",
+    text: "计算机基础",
     icon: "lightbulb",
-    prefix: "/golang/",
+    prefix: "/计算机基础/",
     children: [
       {
         text: "Go语言基础",
         icon: "lightbulb",
         // prefix: "docker/",
-        link: "golangbase",
+        link: "golang/golangbase",
       },
     ],
   },
   {
-    text: "深度学习",
+    text: "数据科学",
     icon: "lightbulb",
-    prefix: "/深度学习/",
+    prefix: "/数据科学/",
     children: [
       {
         text: "深度学习",
         icon: "lightbulb",
         // prefix: "docker/",
-        children: [{ text: "Pytorch常用命令", link: "Pytorch" },
-        { text: "DGL", link: "DGL" }],
+        children: [{ text: "Pytorch常用命令", link: "深度学习/Pytorch" },
+        { text: "DGL", link: "深度学习/DGL" }],
       },
     ],
   },
   {
     text: "算法学习",
     icon: "lightbulb",
-    prefix: "/algorithm/",
+    prefix: "/算法/",
     children: [
       {
         text: "LeetCode",
         icon: "lightbulb",
-        // prefix: "docker/",
+        prefix: "Leetcode/",
         children: [{ text: "热门150题", link: "Leetcode面试热门150题" }],
       },
     ],
