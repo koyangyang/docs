@@ -13,6 +13,12 @@ export const computerBase = arraySidebar([
                 collapsible: true,
                 link: "golangbase",
             },
+            {
+                text: "Golang面试题汇总",
+                // icon: "book",
+                collapsible: true,
+                link: "golang面经1",
+            },
         ],
     },
     {
@@ -30,16 +36,16 @@ export const computerBase = arraySidebar([
         ],
     },
     {
-        text: "面试",
+        text: "操作系统",
         icon: "book",
-        prefix: "面经/",
+        prefix: "操作系统/",
         collapsible: true,
         children: [
             {
-                text: "腾讯后台一面",
+                text: "操作系统面试题汇总",
                 // icon: "book",
                 collapsible: true,
-                link: "腾讯后台一面",
+                link: "操作系统1",
             },
         ],
     },
