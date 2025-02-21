@@ -36,6 +36,20 @@ export const computerBase = arraySidebar([
         ],
     },
     {
+        text: "计算机网络",
+        icon: "book",
+        prefix: "计算机网络/",
+        collapsible: true,
+        children: [
+            {
+                text: "计算机网络面试题汇总",
+                // icon: "book",
+                collapsible: true,
+                link: "计算机网络1",
+            },
+        ],
+    },
+    {
         text: "操作系统",
         icon: "book",
         prefix: "操作系统/",
