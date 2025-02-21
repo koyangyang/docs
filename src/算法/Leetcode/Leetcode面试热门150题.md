@@ -622,7 +622,58 @@ return nums[left]
 ## 链表
 ### [146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)
 > 双向链表实现
+
+### [138. 随机链表的复制](https://leetcode.cn/problems/copy-list-with-random-pointer/)
+
+> 使用了一个很巧妙（不需要额外的哈希表来存储节点映射关系，空间复杂度是 `O(1)`）的三步走策略来解决这个问题：
 >
+> 第一步：在每个原节点后面插入它的复制节点
+>
+> ```txt
+>   原始：1 -> 2 -> 3
+> 
+>   变成：1 -> 1' -> 2 -> 2' -> 3 -> 3'
+> ```
+>
+> 第二步：设置复制节点的 random 指针
+>
+> 因为每个原节点后面就是它的复制节点，所以可以通过 cur.random.next 来设置
+>
+> 第三步：将两个链表分离
+>
+> 把原链表和复制的新链表分开，恢复原链表的结构，同时得到完整的复制链表
+
+### [92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)
+
+> 反转过程：
+>
+> 假设链表为：1->2->3->4->5，left=2, right=4
+>
+> 第一次循环后：1->3->2->4->5
+>
+> 第二次循环后：1->4->3->2->5
+>
+> 每次循环的操作是：
+>
+> 将当前节点的下一个节点（nxt）抽出
+>
+> 将这个节点插入到反转部分的最前面
+>
+> 通过调整指针完成局部反转
+
+### [19. 删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
+
+> 重点：删除头节点的情况
+
+### [82. 删除排序链表中的重复元素 II](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/)
+
+> 增加一个头节点，定义pre cur next方便遍历
+
+### [61. 旋转链表](https://leetcode.cn/problems/rotate-list/)
+
+> 首尾相连形成环形
+>
+> `add = n - k % n`计算要返回的头节点次序
 
 ## 动态规划
 ### [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)

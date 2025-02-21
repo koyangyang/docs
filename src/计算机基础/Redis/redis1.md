@@ -10,21 +10,21 @@ tag:
 
 ### 缓存一致性
 
-![image.png](https://cdn.nlark.com/yuque/0/2025/png/53025989/1738550425523-286fde49-920a-4048-b536-d118dd1eb65e.png?x-oss-process=image%2Fformat%2Cwebp)
+![image.png](https://disk.csuer.us.kg/1738550425523-286fde49-920a-4048-b536-d118dd1eb65e.webp)
 
-![image.png](https://cdn.nlark.com/yuque/0/2025/png/53025989/1738551763919-f966d892-e386-43fc-a927-a6a6a4df243a.png?x-oss-process=image%2Fformat%2Cwebp)
+![image.png](https://disk.csuer.us.kg/1738551763919-f966d892-e386-43fc-a927-a6a6a4df243a.webp)
 
 **延时双删：**
 
 **执行上图步骤④后，延时一段时间再执行步骤④，保证数据一致性。**
 
-![image.png](https://cdn.nlark.com/yuque/0/2025/png/53025989/1738551914890-050cc58e-9f44-4698-95bb-7cac63fbcd60.png?x-oss-process=image%2Fformat%2Cwebp)
+![image.png](https://disk.csuer.us.kg/1738551914890-050cc58e-9f44-4698-95bb-7cac63fbcd60.webp)
 
 ### 缓存穿透
 
 >  缓存穿透说简单点就是大量请求的 key 是不合理的，**根本不存在于缓存中，也不存在于数据库中** 。这就导致这些请求直接到了数据库上，根本没有经过缓存这一层，对数据库造成了巨大的压力，可能直接就被这么多请求弄宕机了。
 
-![缓存穿透](https://oss.javaguide.cn/github/javaguide/database/redis/redis-cache-penetration.png)
+![缓存穿透](https://disk.csuer.us.kg/redis-cache-penetration.webp)
 
 举个例子：某个黑客故意制造一些非法的 key 发起大量请求，导致大量请求落到数据库，结果数据库上也没有查到对应的数据。也就是说这些请求最终都落到了数据库上，对数据库造成了巨大的压力
 
@@ -40,7 +40,7 @@ tag:
 
 布隆过滤器是一个非常神奇的数据结构，通过它我们可以非常方便地判断一个给定数据是否存在于海量数据中。
 
-![](https://oss.javaguide.cn/github/javaguide/cs-basics/algorithms/bloom-filter-simple-schematic-diagram.png)
+![](https://disk.csuer.us.kg/bloom-filter-simple-schematic-diagram.webp)
 
 Bloom Filter 会使用一个较大的 bit 数组来保存所有的数据，数组中的每个元素都只占用 1 bit ，并且每个元素只能是 0 或者 1（代表 false 或者 true），这也是 Bloom Filter 节省内存的核心所在。这样来算的话，申请一个 100w 个元素的位数组只占用 1000000Bit / 8 = 125000 Byte = 125000/1024 KB ≈ 122KB 的空间。
 
@@ -48,7 +48,7 @@ Bloom Filter 会使用一个较大的 bit 数组来保存所有的数据，数�
 
 >  缓存击穿中，请求的 key 对应的是 **热点数据** ，该数据 **存在于数据库中，但不存在于缓存中（通常是因为缓存中的那份数据已经过期）** 。这就可能会导致瞬时大量的请求直接打到了数据库上，对数据库造成了巨大的压力，可能直接就被这么多请求弄宕机了。
 
-![缓存击穿](https://oss.javaguide.cn/github/javaguide/database/redis/redis-cache-breakdown.png)
+![缓存击穿](https://disk.csuer.us.kg/redis-cache-breakdown.webp)
 
 举个例子：秒杀进行过程中，缓存中的某个秒杀商品的数据突然过期，这就导致瞬时大量对该商品的请求直接落到数据库上，对数据库造成了巨大的压力。
 
@@ -70,7 +70,7 @@ Bloom Filter 会使用一个较大的 bit 数组来保存所有的数据，数�
 
 另外，**缓存服务宕机**也会导致缓存雪崩现象，导致所有的请求都落到了数据库上。
 
-![缓存雪崩](https://oss.javaguide.cn/github/javaguide/database/redis/redis-cache-avalanche.png)
+![缓存雪崩](https://disk.csuer.us.kg/redis-cache-avalanche.webp)
 
 举个例子：数据库中的大量数据在同一时间过期，这个时候突然有大量的请求需要访问这些过期的数据。这就导致大量的请求直接落到数据库上，对数据库造成了巨大的压力。
 
